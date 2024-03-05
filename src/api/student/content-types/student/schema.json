@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "singularName": "student",
+    "pluralName": "students",
+    "displayName": "Student",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Mail": {
+      "type": "email",
+      "required": true
+    },
+    "Phone": {
+      "type": "string",
+      "required": true,
+      "minLength":10,
+      "maxLength":10
+    },
+    "Code_Student": {
+      "type": "string",
+      "required": true
+    },
+    "Address": {
+      "type": "text"
+    }
+  }
+}
